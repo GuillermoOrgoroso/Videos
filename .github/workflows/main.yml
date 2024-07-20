@@ -10,7 +10,7 @@ jobs:
   EjecutarTests:
     runs-on: ubuntu-latest
     container:
-      image: bitnami/laravel
+      image: systemsdk/docker-apache-php-laravel
     services:
       mysql:
         image: mysql:8
