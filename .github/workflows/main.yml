@@ -10,7 +10,7 @@ jobs:
   EjecutarTests:
     runs-on: ubuntu-latest
     container:
-      image: systemsdk/docker-apache-php-laravel
+      image: ggmartinez/laravel:php-82
     services:
       mysql:
         image: mysql:8
